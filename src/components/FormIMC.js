@@ -18,8 +18,7 @@ const FormIMC = () => {
     if (peso && altura) {
       const alturaMetros = parseFloat(altura) / 100;  // convertendo altura em metros
       const imcCalculado = (
-        parseFloat(peso) /
-        (alturaMetros * alturaMetros)
+        parseFloat(peso) / (alturaMetros * alturaMetros)
       ).toFixed(2); // cálculo do IMC com 2 casas decimais
       setImc(imcCalculado); // atualizando o estado do IMC
     }
@@ -57,7 +56,7 @@ const FormIMC = () => {
           {/* exibe a classificação de acordo com o IMC */}
           <Classification imc={imc} />
 
-          {/* exibe o peso ideal mínimo e máximo com base na altura */}
+          {/* exibe o peso ideal mínimo e máximo de acorco com a altura */}
           <IdealWeight altura={altura} />
         </>
       )}

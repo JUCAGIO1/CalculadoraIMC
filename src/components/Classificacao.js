@@ -2,9 +2,9 @@
 import React from 'react';
 import { Text, StyleSheet } from 'react-native';
 
-// Função que recebe o IMC e exibe a classificação 
+//função que recebe o IMC e mostra a classificaçao
 const Classification = ({ imc }) => {
-  // Converte string para número
+  //converte string para número
   const valor = parseFloat(imc);
 
   // Função que retorna a faixa do IMC
