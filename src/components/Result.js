@@ -1,4 +1,4 @@
-// Importa o React
+// Importando o React
 import React from 'react';
 import { Text, StyleSheet } from 'react-native';
 
@@ -8,7 +8,7 @@ const Result = ({ imc }) => {
     );
 }
 
-// Estilo aplicado ao texto do resultado
+// pondo um estilo no código
 const styles = StyleSheet.create({
     result: {
         marginTop: 20,

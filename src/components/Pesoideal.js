@@ -17,6 +17,7 @@ const IdealWeight = ({ altura }) => {
   );
 };
 
+//Texto que vai aparecer no programa
 const styles = StyleSheet.create({
   text: {
     marginTop: 5,
@@ -26,4 +27,5 @@ const styles = StyleSheet.create({
   },
 });
 
+//exportando o pesoideal
 export default IdealWeight;
